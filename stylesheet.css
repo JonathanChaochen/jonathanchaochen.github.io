@@ -31,4 +31,8 @@ h1, h2 {
   #logo {
     width: 40px;
   }
+
+  #hamber {
+    margin-bottom: 1em;
+  }
 }
