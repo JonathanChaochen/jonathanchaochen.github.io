@@ -7,6 +7,7 @@
 #footer-top{
   padding: 2em 0;
 }
+
 #footer-bottom {
   background: #222;
   padding: 2em 0;
@@ -58,6 +59,9 @@ h1, h2 {
 @media (max-width: 768px) {
   #logo {
     width: 40px;
+  }
+  #header-top{
+    margin: 0;
   }
 
   #hamber {
