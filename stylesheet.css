@@ -1,5 +1,9 @@
 
 
+#header-top{
+  margin: 0.5em 0 ;
+}
+
 #footer-top{
   padding: 2em 0;
 }
@@ -8,6 +12,14 @@
   padding: 2em 0;
   color: #ddd;
 }
+
+
+.selected a{
+  color: #ddd;
+  border: 2px solid #ddd;
+  border-radius: 1.5em;
+}
+
 
 /*nav {
   background-image: url("images/header-background.jpg");
