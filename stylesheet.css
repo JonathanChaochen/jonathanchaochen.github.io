@@ -1,6 +1,13 @@
 
 
-
+#footer-top{
+  padding: 2em 0;
+}
+#footer-bottom {
+  background: #222;
+  padding: 2em 0;
+  color: #ddd;
+}
 
 /*nav {
   background-image: url("images/header-background.jpg");
@@ -14,6 +21,10 @@ img {
 
 }
 
+footer img {
+  width: 45px;
+}
+
 
 h1, h2 {
   color: #eee;
@@ -23,6 +34,11 @@ h1, h2 {
   width: 5em;
 }
 
+
+.quotation {
+  max-width: 60em;
+  margin: 0 auto;
+}
 
 
 /*-------------------- MEDIA QUERIES ------------------*/
