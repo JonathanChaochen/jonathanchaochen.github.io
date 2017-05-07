@@ -1,5 +1,7 @@
 
 
+/*-------------------- Layout ------------------*/
+
 #header-top{
   margin: 0.5em 0 ;
 }
@@ -14,6 +16,22 @@
   color: #ddd;
 }
 
+#logo {
+  width: 5em;
+}
+
+
+.quotation {
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+
+/*-------------------- Color & Scheme ------------------*/
+
+h1, h2 {
+  color: #eee;
+}
 
 .selected a{
   color: #ddd;
@@ -22,11 +40,14 @@
 }
 
 
+
 /*nav {
   background-image: url("images/header-background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
 }*/
+
+/*-------------------- Images ------------------*/
 
 img {
 
@@ -39,19 +60,9 @@ footer img {
 }
 
 
-h1, h2 {
-  color: #eee;
-}
-
-#logo {
-  width: 5em;
-}
 
 
-.quotation {
-  max-width: 60em;
-  margin: 0 auto;
-}
+
 
 
 /*-------------------- MEDIA QUERIES ------------------*/
