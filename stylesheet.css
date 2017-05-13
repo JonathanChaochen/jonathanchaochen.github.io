@@ -21,10 +21,13 @@
 }
 
 
-.quotation {
+.quotation, .blog{
   max-width: 60em;
   margin: 0 auto;
 }
+
+
+
 
 
 /*-------------------- Color & Scheme ------------------*/
@@ -39,7 +42,14 @@ h1, h2 {
   border-radius: 1.5em;
 }
 
+.project {
+  padding-bottom: 2em;
+  border-bottom: 1px solid #ddd;
+}
 
+.assignment {
+  padding-bottom: 2em;
+}
 
 /*nav {
   background-image: url("images/header-background.jpg");
@@ -47,7 +57,7 @@ h1, h2 {
   background-attachment: fixed;
 }*/
 
-/*-------------------- Images ------------------*/
+/*-------------------- IMAGES------------------*/
 
 img {
 
@@ -55,12 +65,48 @@ img {
 
 }
 
+.images {
+  width: 22em;
+  margin: 0 auto;
+}
+
+.reveal {
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  font-weight: bold;
+  z-index: -1;
+  color: #000;
+  position: absolute;
+  opacity: 0;
+
+  background: #fff;
+  width: 100%;
+  left: 0;
+  bottom: 3em;
+}
+
+.images {
+  position: relative;
+}
+
+.portfolio img:hover {
+  opacity: 0.3;
+}
+
+
+.portfolio img:hover + p{
+  opacity: 1;
+}
+
+
 footer img {
   width: 45px;
 }
 
 
 
+
+/*-------------------- Navigation ------------------*/
 
 
 
