@@ -51,6 +51,10 @@ h1, h2 {
   padding-bottom: 2em;
 }
 
+.php {
+  background: #eee;
+}
+
 /*nav {
   background-image: url("images/header-background.jpg");
   background-repeat: no-repeat;
@@ -104,7 +108,23 @@ footer img {
 }
 
 
+/*-------------------- Video ------------------*/
 
+video {
+    width: 100%;
+    height: auto;
+}
+
+.video_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-right: 1em;
+}
+
+.clip {
+  width: 25em;
+}
 
 /*-------------------- Navigation ------------------*/
 
