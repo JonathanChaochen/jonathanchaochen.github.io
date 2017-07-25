@@ -4,10 +4,17 @@
 
 #header-top{
   margin: 0.5em 0 ;
+/*  position: fixed; /* Set the navbar to fixed position */
+  /*top: 0;  Position the navbar at the top of the page*/*/
 }
 
 #footer-top{
-  padding: 2em 0;
+  padding: 2em;
+  margin: 0.5em;
+}
+
+#footer-top img{
+  margin:0 0.5em;
 }
 
 #footer-bottom {
@@ -26,9 +33,50 @@
   margin: 0 auto;
 }
 
+.assessment {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1em;
+}
+
+.assignment {
+  /*padding-bottom: 2em;*/
+  height: 23em;
+}
+
+.assignment-image {
+  margin-bottom: 2em;
+}
 
 
+#about {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1em;
 
+}
+
+
+/*-------------------- Typography------------------*/
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+.introduction {
+    max-width: 30em;
+    margin: 0 auto;
+    line-height: 1.5em;
+
+    font-size: 1.2em;
+}
+
+.skills {
+  max-width: 32em;
+  margin: 0 auto;
+}
 
 /*-------------------- Color & Scheme ------------------*/
 
@@ -47,9 +95,10 @@ h1, h2 {
   border-bottom: 1px solid #ddd;
 }
 
-.assignment {
-  padding-bottom: 2em;
+#portfolio {
+  background: #eee;
 }
+
 
 .php {
   /*background: #eee;*/
@@ -69,8 +118,23 @@ img {
 
 }
 
+.skills img {
+  width: 3em;
+  margin: 0.5em 0.8em;
+}
+
+#expert {
+  width: 3em;
+
+}
+
+.chao {
+  max-width: 13em;
+  margin: 0 auto;
+}
+
 .images {
-  width: 22em;
+  width: 26em;
   margin: 0 auto;
 }
 
@@ -108,7 +172,7 @@ footer img {
 }
 
 
-/*-------------------- Video ------------------*/
+/*-------------------- Video ------------------
 
 video {
     width: 100%;
@@ -119,7 +183,8 @@ video {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-right: 1em;
+  /*margin-right: 1em;*/
+  padding: 1em;
 }
 
 .clip {
@@ -128,7 +193,7 @@ video {
 
 /*-------------------- Navigation ------------------*/
 
-
+/*-------------------- Chart ------------------*/
 
 
 /*-------------------- MEDIA QUERIES ------------------*/
