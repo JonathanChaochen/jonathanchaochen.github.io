@@ -96,7 +96,7 @@ h1, h2 {
 }
 
 #portfolio {
-  background: #eee;
+  /*background: #eee;*/
 }
 
 
@@ -172,7 +172,7 @@ footer img {
 }
 
 
-/*-------------------- Video ------------------
+-------------------- Video ------------------
 
 video {
     width: 100%;
@@ -183,11 +183,11 @@ video {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  /*margin-right: 1em;*/
+  margin-right: 1em;
   padding: 1em;
 }
 
-.clip {
+.clip video{
   width: 25em;
 }
 
