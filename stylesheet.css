@@ -40,11 +40,20 @@
 
 .assignment {
   /*padding-bottom: 2em;*/
-  height: 23em;
+  height: 22em;
+  width: 28em;
+  margin-bottom: 1em;
+  box-shadow: 0 4px 20px 0 rgba(0,0,0,0.19);
 }
+
 
 .assignment-image {
   margin-bottom: 2em;
+
+}
+
+.code {
+  margin-top: 0.5em;
 }
 
 
@@ -53,6 +62,10 @@
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 1em;
+}
+
+.mysql-skill {
+  margin: 0.5em 0;
 }
 
 
@@ -66,16 +79,20 @@ body{
     max-width: 30em;
     margin: 0 auto;
     line-height: 1.5em;
-    padding: 0 1em;
-
+    padding: 1em 1em;
     font-size: 1.2em;
+    /*box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);*/
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.19);
 }
 
 .skills {
   max-width: 32em;
   margin: 0 auto;
-  padding: 0 1em;
+  padding: 1em 1em;
+  /*box-shadow: 0 4px 20px 0 rgba(0,0,0,0.19);*/
 }
+
+
 
 
 /*-------------------- Color & Scheme ------------------*/
@@ -93,8 +110,11 @@ h1, h2 {
 
 
 .project {
-  padding-bottom: 2em;
-  border-bottom: 1px solid #ddd;
+  width: 28em;
+  padding: 0.5em 0 1em;
+  margin: 0 auto;
+  /*border-bottom: 1px solid #ddd;*/
+  box-shadow: 0 4px 20px 0 rgba(0,0,0,0.19);
 }
 
 #portfolio {
@@ -104,13 +124,13 @@ h1, h2 {
 
 
 #nav-header {
-
   background-image: url("images/header2.png");
   /*background-color: rgba(255, 0, 0, 0.5);*/
-  /*background: rgba(255, 0, 0, 0.5);*/
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 0% 0%;
+  /*background-attachment: fixed;*/
+  /*background-position: center;*/
+  background-size: 100% 100%;
+  border: none;
 
 }
 
@@ -134,7 +154,8 @@ img {
 
 .chao {
   max-width: 13em;
-  margin: 0 auto;
+  margin: 1em auto 3em;
+
 }
 
 .images {
@@ -216,5 +237,8 @@ video {
 
   #nav-header {
     background-image: url("images/header-m.png");
+    background-attachment: fixed;
+    background-size: 100% 38%;
+
   }
 }
