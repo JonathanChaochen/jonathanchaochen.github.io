@@ -38,6 +38,11 @@
   padding: 1em;
 }
 
+.project {
+  padding: 1em;
+}
+
+
 .assignment {
   /*padding-bottom: 2em;*/
   height: 22em;
@@ -117,9 +122,10 @@ h1, h2 {
   box-shadow: 0 4px 20px 0 rgba(0,0,0,0.19);
 }
 
-#portfolio {
-  /*background: #eee;*/
+#baobar {
+  padding: 0 1em;
 }
+
 
 
 
@@ -238,7 +244,7 @@ video {
   #nav-header {
     background-image: url("images/header-m.png");
     background-attachment: fixed;
-    background-size: 100% 38%;
+    background-size: 100% 40%;
 
   }
 }
