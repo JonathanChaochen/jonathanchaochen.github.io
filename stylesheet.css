@@ -102,8 +102,12 @@ body{
 
 /*-------------------- Color & Scheme ------------------*/
 
-h1, h2 {
+h1 {
   color: #eee;
+}
+
+h2 {
+  color: #222;
 }
 
 .selected a{
