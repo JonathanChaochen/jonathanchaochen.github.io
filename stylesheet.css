@@ -242,9 +242,10 @@ video {
   }
 
   #nav-header {
-    background-image: url("images/header-m.png");
-    background-attachment: fixed;
-    background-size: 100% 38%;
+    /*background-image: url("images/header-m.png");*/
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-size: 200% 200%;
 
   }
 }
