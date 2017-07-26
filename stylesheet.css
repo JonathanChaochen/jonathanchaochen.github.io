@@ -244,7 +244,7 @@ video {
   #nav-header {
     background-image: url("images/header-m.png");
     background-attachment: fixed;
-    background-size: 100% 40%;
+    background-size: 100% 100%;
 
   }
 }
