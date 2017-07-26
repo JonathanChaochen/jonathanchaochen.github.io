@@ -140,6 +140,13 @@ h1, h2 {
 
 }
 
+#nav-header .navbar-nav>li>a {
+  color: #fff;
+}
+
+#nav-header .navbar-nav>li>a:hover {
+  color: #ccc;
+}
 /*-------------------- IMAGES------------------*/
 
 img {
