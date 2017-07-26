@@ -107,9 +107,9 @@ h1, h2 {
 }
 
 .selected a{
-  color: #ddd;
-  border: 2px solid #ddd;
-  border-radius: 1.5em;
+/*  color: #ddd;
+  border: 2px solid #fff;
+  border-radius: 1.5em;*/
 }
 
 
@@ -142,10 +142,13 @@ h1, h2 {
 
 #nav-header .navbar-nav>li>a {
   color: #fff;
+  /*border: 2px solid #fff;*/
+  /*border-radius: 1em;*/
 }
 
 #nav-header .navbar-nav>li>a:hover {
   color: #ccc;
+  /*border: 2px solid #ccc;*/
 }
 /*-------------------- IMAGES------------------*/
 
