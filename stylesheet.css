@@ -69,19 +69,20 @@
 
 #portfolio-seekesy {
   display: flex;
-  flex: row wrap;
-  justify-content: space-between;
+  flex-flow: row wrap;
+  justify-content: space-around;
   padding: 20px;
 }
 
 #seekesy-image {
-  width: 50%;
-  height: 50%;
+  max-width: 620px;
+  height: 100%;
 }
 
 #side-description {
-  width: 45%;
-  height: 45%;
+  text-align: justify;
+  max-width: 500px;
+  height: 100%;
 }
 
 /*-------------------- Typography------------------*/
@@ -257,5 +258,25 @@ video {
     /*background-attachment: fixed;*/
     background-position: center;
     /*background-size: 200% 200%;*/
+  }
+}
+
+@media (max-width: 1180px) {
+  #portfolio-seekesy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  #seekesy-image {
+    max-width: 620px;
+    height: 100%;
+  }
+
+  #side-description {
+    text-align: justify;
+    max-width: 500px;
+    height: 100%;
   }
 }
