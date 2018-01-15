@@ -1,18 +1,16 @@
-
-
 /*-------------------- Layout ------------------*/
 
-#header-top{
-  margin: 0.5em 0 ;
+#header-top {
+  margin: 0.5em 0;
 }
 
-#footer-top{
+#footer-top {
   padding: 2em;
   margin: 0.5em;
 }
 
-#footer-top img{
-  margin:0 0.5em;
+#footer-top img {
+  margin: 0 0.5em;
 }
 
 #footer-bottom {
@@ -25,8 +23,8 @@
   width: 5em;
 }
 
-
-.quotation, .blog{
+.quotation,
+.blog {
   max-width: 60em;
   margin: 0 auto;
 }
@@ -42,25 +40,21 @@
   padding: 1em;
 }
 
-
 .assignment {
   /*padding-bottom: 2em;*/
   height: 22em;
   width: 28em;
   margin-bottom: 1em;
-  box-shadow: 0 4px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 
 .assignment-image {
   margin-bottom: 2em;
-
 }
 
 .code {
   margin-top: 0.5em;
 }
-
 
 #about {
   display: flex;
@@ -73,21 +67,37 @@
   margin: 0.5em 0;
 }
 
+#portfolio-seekesy {
+  display: flex;
+  flex: row wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#seekesy-image {
+  width: 50%;
+  height: 50%;
+}
+
+#side-description {
+  width: 45%;
+  height: 45%;
+}
 
 /*-------------------- Typography------------------*/
 
-body{
-  font-family: 'Raleway', sans-serif;
+body {
+  font-family: "Raleway", sans-serif;
 }
 
 .introduction {
-    max-width: 30em;
-    margin: 0 auto;
-    line-height: 1.5em;
-    padding: 1em 1em;
-    font-size: 1.2em;
-    /*box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);*/
-    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.19);
+  max-width: 30em;
+  margin: 0 auto;
+  line-height: 1.5em;
+  padding: 1em 1em;
+  font-size: 1.2em;
+  /*box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2);*/
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .skills {
@@ -96,9 +106,6 @@ body{
   padding: 1em 1em;
   /*box-shadow: 0 4px 20px 0 rgba(0,0,0,0.19);*/
 }
-
-
-
 
 /*-------------------- Color & Scheme ------------------*/
 
@@ -111,31 +118,26 @@ h2 {
 }
 
 .webdeveloper {
-   color: #eee;
+  color: #eee;
 }
 
-.selected a{
-/*  color: #ddd;
+.selected a {
+  /*  color: #ddd;
   border: 2px solid #fff;
   border-radius: 1.5em;*/
 }
-
-
 
 .project {
   width: 28em;
   padding: 0.5em 0 1em;
   margin: 0 auto;
   /*border-bottom: 1px solid #ddd;*/
-  box-shadow: 0 4px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #baobar {
   padding: 0 1em;
 }
-
-
-
 
 #nav-header {
   background-image: url("images/header2.png");
@@ -145,25 +147,22 @@ h2 {
   background-position: center;
   /*background-size: 100% 100%;*/
   border: none;
-
 }
 
-#nav-header .navbar-nav>li>a {
+#nav-header .navbar-nav > li > a {
   color: #fff;
   /*border: 2px solid #fff;*/
   /*border-radius: 1em;*/
 }
 
-#nav-header .navbar-nav>li>a:hover {
+#nav-header .navbar-nav > li > a:hover {
   color: #ccc;
   /*border: 2px solid #ccc;*/
 }
 /*-------------------- IMAGES------------------*/
 
 img {
-
   width: 100%;
-
 }
 
 .skills img {
@@ -173,13 +172,11 @@ img {
 
 #expert {
   width: 3em;
-
 }
 
 .chao {
   max-width: 13em;
   margin: 1em auto 3em;
-
 }
 
 .images {
@@ -210,22 +207,19 @@ img {
   opacity: 0.3;
 }
 
-
-.portfolio img:hover + p{
+.portfolio img:hover + p {
   opacity: 1;
 }
-
 
 footer img {
   width: 45px;
 }
 
-
 /*-------------------- Video ------------------*/
 
 video {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .video_content {
@@ -236,7 +230,7 @@ video {
   padding: 1em;
 }
 
-.clip video{
+.clip video {
   width: 25em;
 }
 
@@ -244,14 +238,13 @@ video {
 
 /*-------------------- Chart ------------------*/
 
-
 /*-------------------- MEDIA QUERIES ------------------*/
 
 @media (max-width: 768px) {
   #logo {
     width: 40px;
   }
-  #header-top{
+  #header-top {
     margin: 0;
   }
 
@@ -264,6 +257,5 @@ video {
     /*background-attachment: fixed;*/
     background-position: center;
     /*background-size: 200% 200%;*/
-
   }
 }
