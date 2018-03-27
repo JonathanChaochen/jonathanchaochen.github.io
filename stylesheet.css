@@ -215,6 +215,14 @@ img {
   opacity: 1;
 }
 
+.assignment img:hover {
+  opacity: 0.3;
+}
+
+.assignment img:hover + p {
+  opacity: 1;
+}
+
 footer img {
   width: 45px;
 }
